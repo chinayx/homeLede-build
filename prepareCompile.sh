@@ -5,8 +5,12 @@ disablePkgsList="
 ./feeds/lienol/package/ipt2socks 
 ./feeds/lienol/package/v2ray 
 ./feeds/lienol/package/v2ray-plugin 
-./package/lean/luci-app-baidupcs-web 
+./feeds/lienol/others/luci-app-kcptun 
+./feeds/lienol/lienol/luci-app-ssr-python-pro-server 
 ./package/lean/luci-app-kodexplorer 
+./package/lean/luci-lib-docker 
+./package/lean/luci-app-dockerman 
+./package/lean/kcptun 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
 ./feeds/packages/utils/ttyd 
@@ -14,11 +18,13 @@ disablePkgsList="
 ./feeds/packages/utils/containerd 
 ./feeds/packages/utils/libnetwork 
 ./feeds/packages/utils/tini 
-./package/network/services/dropbear 
+./feeds/packages/net/dnscrypt-proxy2 
 ./feeds/packages/net/https-dns-proxy 
-./package/lean/luci-app-dockerman 
-./package/lean/kcptun 
-./feeds/luci/applications/luci-app-upnp
+./feeds/packages/net/kcptun 
+./feeds/packages/net/smartdns 
+./package/network/services/dropbear 
+./feeds/luci/applications/luci-app-upnp 
+./feeds/luci/applications/luci-app-sqm
 "
 
 function disableDulicatedPkg()
