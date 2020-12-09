@@ -41,3 +41,5 @@ Add some meta info of your built firmware (such as firmware architecture and ins
 ## License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE) © P3TERX
+
+https://github.com/xiaoqingfengATGH/HomeLede
