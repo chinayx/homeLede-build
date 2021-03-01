@@ -3,7 +3,7 @@
 disablePkgsList="
 ./feeds/pw/chinadns-ng 
 ./feeds/pw/ipt2socks 
-./feeds/lienol/others/luci-app-kcptun 
+./feeds/lienol/luci-app-softethervpn 
 ./package/lean/luci-app-kodexplorer 
 ./package/lean/luci-lib-docker 
 ./package/lean/luci-app-dockerman 
@@ -12,20 +12,24 @@ disablePkgsList="
 ./package/lean/v2ray 
 ./package/lean/v2ray-plugin 
 ./package/lean/xray 
-./package/network/services/dropbear 
+./package/lean/luci-app-jd-dailybonus 
+./package/lean/luci-app-docker 
+./package/lean/softethervpn5 
+./package/lean/luci-app-softethervpn 
+./feeds/packages/utils/docker-compose 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
-./feeds/packages/utils/ttyd 
 ./feeds/packages/utils/docker-ce 
 ./feeds/packages/utils/containerd 
 ./feeds/packages/utils/libnetwork 
 ./feeds/packages/utils/tini 
+./feeds/packages/utils/runc 
 ./feeds/packages/net/dnscrypt-proxy2 
 ./feeds/packages/net/https-dns-proxy 
 ./feeds/packages/net/kcptun 
 ./feeds/packages/net/smartdns 
 ./feeds/packages/net/xtables-addons 
-./feeds/luci/applications/luci-app-upnp 
+./feeds/packages/net/softethervpn5 
 ./feeds/luci/applications/luci-app-sqm
 "
 
