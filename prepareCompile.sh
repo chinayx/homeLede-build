@@ -51,6 +51,8 @@ done
 ./scripts/feeds update -i
 ./scripts/feeds install -a
 
+git clone https://github.com/tuanqing/install-program package/install-program
+
 if [ ! -f .config ];then
 cp defconfig .config
 echo "Default .config created."
